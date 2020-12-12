@@ -1,0 +1,30 @@
+{
+  "name": "spirling/hosts-file-manager",
+  "description": "Library for managing hosts in hosts file",
+  "type": "library",
+  "version": "0.0.1-dev",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Johnie Spirling",
+      "email": "johnie.spirling@gmail.com",
+      "role": "author"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Spirling\\HostsFileManager\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Spirling\\HostsFileManager\\Tests\\": "tests"
+    }
+  }
+}
